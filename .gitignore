@@ -1,0 +1,30 @@
+# OS X
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node dependencies
+node_modules
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Terraform plugins
+.terraform
+
+# Terraform secrets
+terraform.tfvars
+*tfstate*
+
+# Temporary plan files
+tf-plan
+

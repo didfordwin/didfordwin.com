@@ -1,0 +1,15 @@
+{
+  "name": "did-ford-win",
+  "version": "0.1.0",
+  "description": "Website dedicated to answering questions about if and how Doug Ford won the 2018 Ontario CPC Election",
+  "main": "index.js",
+  "repository": "https://github.com/didfordwin/didfordwin.com",
+  "homepage": "https://didfordwin.com",
+  "bugs": "https://github.com/didfordwin/didfordwin.com/issues",
+  "author": "Ransom Olds <didfordwin@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "update": "aws s3 sync ./dist s3://didfordwin.com/"
+  }
+}
