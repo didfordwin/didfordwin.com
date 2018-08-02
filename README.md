@@ -2,9 +2,15 @@
 
 Website for the Did Ford Win movement. We are a bipartisan group of Ontario residents who are deeply curious about the 2018 CPC Ontario leadership election.
 
-## Contributing
+## Contributing Indirectly
 
-Please read and understand our [code of conduct]: ./CODE_OF_CONDUCT.md "Did Ford Win Code of Conduct" before making contributions.
+Information is always welcome. We maintain a [presence on Twitter](https://twitter.com/DidFordWin 'Ransom Olds on Twitter') you can direct message us there or '@' message us. We will attempt to look into your information and if it checks out and first with our [code of conduct](./CODE_OF_CONDUCT.md 'Project Code of Conduct') we will add it.
+
+Another easy way to indirectly contribute is to [submit an issue to our GitHub repository](https://github.com/didfordwin/didfordwin.com/issues 'Submit issues directly to our GitHub repository')
+
+## Contributing Directly
+
+Please read and understand our [code of conduct](./CODE_OF_CONDUCT.md 'Did Ford Win Code of Conduct') before making contributions.
 
 Unfortunately we cannot accept all contributions. This project has very specific requirements including but not limited to:
 
@@ -21,14 +27,20 @@ This code base attempts to follow industry conventions where possible. You will 
 
 Currently there are two aspects to the code base:
 
-- Static website in the form of [GatsbyJS]: https://www.gatsbyjs.org/ 'Gatsby JS a static site generator'
-- Infrastructure in the form of [Terraform Configurations]: https://terraform.io 'Terraform a cloud configuration and deployment tool'
+- Static website in the form of [GatsbyJS](https://www.gatsbyjs.org/ 'Gatsby JS a static site generator')
+- Infrastructure in the form of [Terraform Configurations](https://terraform.io 'Terraform a cloud configuration and deployment tool')
 
 Currently there is not much need to adjust the infrastrucutre. The static website on the other hand will need help.
 
-To get started developing on the website be familiar with [Gatsby]: https://www.gatsbyjs.org/docs/ 'Gatsby Documentation'. The folder `website/` contains a standard Gatsby project.
+To get started developing on the website be familiar with [Gatsby](https://www.gatsbyjs.org/docs/ 'Gatsby Documentation'). The folder `website/` contains a standard Gatsby project.
 
 After checking out the code be sure to run a `yarn install` from the source code root. After that run `yarn develop` to get a real time development server.
+
+### Signatures and GPG
+
+This project uses [GNU Privacy Guard](https://gnupg.org/ 'GNU Privacy Guard') to sign commits.
+
+Be familiar with the [git manual](https://git-scm.com/book/id/v2/Git-Tools-Signing-Your-Work 'Git GNU Privacy Guard documentation') and the [GitHub documentation](https://help.github.com/articles/signing-commits-using-gpg/ 'GitHub GNU Privacy Guard documenation')
 
 ## License
 
