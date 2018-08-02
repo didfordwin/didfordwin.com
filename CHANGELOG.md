@@ -1,3 +1,7 @@
+## 0.3.0
+
+- Adds the initial content
+
 ## 0.2.0
 
 - Adds Gatsby a static site generator
