@@ -1,3 +1,7 @@
+## 0.4.0
+
+- Adds a sitemap
+
 ## 0.3.0
 
 - Adds the initial content
