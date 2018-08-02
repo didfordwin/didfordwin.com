@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     author: `Ransom Olds`,
     title: `Did Ford Win?`,
-    whoWeAre: `We are a bipartisan group of Ontario residents who are deeply curious about the 2018 CPC Ontario leadership election.`
+    whoWeAre: `We are a bipartisan group of Ontario residents who are deeply curious about the 2018 Ontario PC leadership election.`
   },
   plugins: [
     `gatsby-transformer-remark`,
@@ -20,6 +20,16 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-123363288-1',
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        exclude: []
+      }
+    },
+    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: './src/favicon.png',
@@ -27,7 +37,7 @@ module.exports = {
         // WebApp Manifest Configuration
         appName: 'Did Ford Win?',
         appDescription:
-          'Did Doug Ford really win the Ontario 2018 CPC leadership election?',
+          'Did Doug Ford really win the Ontario 2018 PC leadership election?',
         developerName: 'Ransom Olds',
         developerURL: 'https://didfordwin.com',
         dir: 'auto',

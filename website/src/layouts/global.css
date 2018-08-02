@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  font-size: 110%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}

@@ -17,7 +17,7 @@ Unfortunately we cannot accept all contributions. This project has very specific
 - Fairness, especially to Ford and their family. The purpose of this site is to answer the questions Did Ford Win the 2018 Ontario CPC leadership elections, and if so did Ford win fairly?
 - Accessibility, we are committed to making an accessible website which means all information needs to be equally represented with or without JavaScript _and_ accessible to as many differently abled people as possible.
 - Content over Code. Meaning we are looking for fact based content. Some code contributions will be welcome, especially if they fix bugs, but primarily we need content.
-- Thoughfulness. This site's content aims to present as small a surface area as possible. We want to stick to concise information as to appeal to as many people as possible.
+- Thoughtfulness. This site's content aims to present as small a surface area as possible. We want to stick to concise information as to appeal to as many people as possible.
 
 This contributor guide will likely change as this project evolves, please check here for updates.
 
@@ -30,7 +30,7 @@ Currently there are two aspects to the code base:
 - Static website in the form of [GatsbyJS](https://www.gatsbyjs.org/ 'Gatsby JS a static site generator')
 - Infrastructure in the form of [Terraform Configurations](https://terraform.io 'Terraform a cloud configuration and deployment tool')
 
-Currently there is not much need to adjust the infrastrucutre. The static website on the other hand will need help.
+Currently there is not much need to adjust the infrastructure. The static website on the other hand will need help.
 
 To get started developing on the website be familiar with [Gatsby](https://www.gatsbyjs.org/docs/ 'Gatsby Documentation'). The folder `website/` contains a standard Gatsby project.
 
