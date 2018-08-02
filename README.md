@@ -1,7 +1,6 @@
-Did Ford Win?
-=============
+# Did Ford Win?
 
-Website for the Did Ford Win movement.  We are a bipartisan group of Ontario residents who are deeply curious about the 2018 CPC Ontario leadership election.
+Website for the Did Ford Win movement. We are a bipartisan group of Ontario residents who are deeply curious about the 2018 CPC Ontario leadership election.
 
 ## Contributing
 
@@ -16,9 +15,24 @@ Unfortunately we cannot accept all contributions. This project has very specific
 
 This contributor guide will likely change as this project evolves, please check here for updates.
 
+### Codebase
+
+This code base attempts to follow industry conventions where possible. You will need `yarn` installed and you should probably have some familiarity with JavaScript projects in 2018.
+
+Currently there are two aspects to the code base:
+
+- Static website in the form of [GatsbyJS]: https://www.gatsbyjs.org/ 'Gatsby JS a static site generator'
+- Infrastructure in the form of [Terraform Configurations]: https://terraform.io 'Terraform a cloud configuration and deployment tool'
+
+Currently there is not much need to adjust the infrastrucutre. The static website on the other hand will need help.
+
+To get started developing on the website be familiar with [Gatsby]: https://www.gatsbyjs.org/docs/ 'Gatsby Documentation'. The folder `website/` contains a standard Gatsby project.
+
+After checking out the code be sure to run a `yarn install` from the source code root. After that run `yarn develop` to get a real time development server.
+
 ## License
 
-[![GPLv3 License Logo and Local Text][licenseImage]][licenseText]
+[![GPLv3 License Logo and Local Text][licenseimage]][licensetext]
 
-[licenseImage]: https://www.gnu.org/graphics/gplv3-127x51.png "GPLv3 logo"
-[licenseText]: ./LICENSE "GPLv3 Full Text"
+[licenseimage]: https://www.gnu.org/graphics/gplv3-127x51.png 'GPLv3 logo'
+[licensetext]: ./LICENSE 'GPLv3 Full Text'

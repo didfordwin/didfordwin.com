@@ -1,3 +1,11 @@
+## 0.2.0
+
+- Adds Gatsby a static site generator
+- New typography and style
+- Adds Prettier
+- Adds favicons
+- Setup for static file querying
+
 ## 0.1.0
 
 - Setup basic project guidelines and CoC

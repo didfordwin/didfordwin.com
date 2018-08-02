@@ -1,6 +1,6 @@
 {
   "name": "did-ford-win",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Website dedicated to answering questions about if and how Doug Ford won the 2018 Ontario CPC Election",
   "main": "index.js",
   "repository": "https://github.com/didfordwin/didfordwin.com",
@@ -9,7 +9,27 @@
   "author": "Ransom Olds <didfordwin@gmail.com>",
   "license": "GPL-3.0",
   "private": false,
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
   "scripts": {
-    "update": "aws s3 sync ./dist s3://didfordwin.com/"
+    "develop": "cd ./website && gatsby develop",
+    "postinstall": "cd ./website && yarn install",
+    "preupdate": "cd ./website && gatsby build && cd -",
+    "update": "cd ./website && aws s3 sync ./public s3://didfordwin.com/"
+  },
+  "devDependencies": {
+    "gatsby-cli": "^1.1.58",
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.0",
+    "prettier": "1.14.0"
   }
 }
