@@ -24,6 +24,12 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`
     },
     {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-123363288-1',

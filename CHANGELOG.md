@@ -1,3 +1,7 @@
+## 0.5.0
+
+- Sets the HTML document language to English.
+
 ## 0.4.0
 
 - Adds a sitemap

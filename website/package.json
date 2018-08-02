@@ -12,6 +12,7 @@
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-google-analytics": "^1.0.31",
+    "gatsby-plugin-html-attributes": "^1.0.4",
     "gatsby-plugin-sitemap": "^1.2.25",
     "gatsby-plugin-typography": "^1.7.19",
     "gatsby-source-filesystem": "^1.5.39",
