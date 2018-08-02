@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     author: `Ransom Olds`,
+    siteUrl: `https://didfordwin.com`,
     title: `Did Ford Win?`,
     whoWeAre: `We are a bipartisan group of Ontario residents who are deeply curious about the 2018 Ontario PC leadership election.`
   },
@@ -18,6 +19,9 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography.js`
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
