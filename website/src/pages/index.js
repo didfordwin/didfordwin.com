@@ -1,14 +1,9 @@
 import React from 'react';
 
 export default () => (
-  <article id="top">
-    <p style={{ fontSize: '9pt', float: 'right' }}>
-      <a href="#privacy">
-        <em>Our commitment to privacy</em>
-      </a>
-    </p>
+  <article>
     <header style={{ clear: 'both' }}>
-      <h1>Did Doug Ford really win the 2018 Ontario PC leadership election?</h1>
+      <h2>Did Doug Ford really win the 2018 Ontario PC leadership election?</h2>
     </header>
     <ul>
       <li>
@@ -523,17 +518,5 @@ export default () => (
         </a>
       </p>
     </article>
-    <article id="privacy">
-      <header>
-        <h3>Data Privacy</h3>
-      </header>
-      This site does make use of Google analytics with IP anonymization on. To
-      the best of our knowledge we capture no personal identifiable information.
-      We do however track visits to the site excluding IP addresses. We will
-      keep this section up to date as our site evolves.
-    </article>
-    <h2>
-      <a href="#top">↑</a>
-    </h2>
   </article>
 );
