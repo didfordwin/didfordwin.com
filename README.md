@@ -1,6 +1,6 @@
 # Did Ford Win?
 
-Website for the Did Ford Win movement. We are a bipartisan group of Ontario residents who are deeply curious about the 2018 CPC Ontario leadership election.
+Website for the Did Ford Win movement. We are a bipartisan group of Ontario residents who are deeply curious about the 2018 PC Ontario leadership election.
 
 ## Contributing Indirectly
 

@@ -1,3 +1,7 @@
+## 0.8.0
+
+- Fix error in README
+
 ## 0.7.0
 
 - Ask for design help
