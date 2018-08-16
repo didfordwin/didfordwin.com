@@ -1,6 +1,6 @@
 ---
 title: 'Did Ontario Vote to Spend Money Shrinking Toronto Council?'
-date: '2018-08-14'
+date: '2018-08-16'
 ---
 
 <article id="top">

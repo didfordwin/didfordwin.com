@@ -1,6 +1,7 @@
 ## 0.6.0
 
 - New content
+- Adds an about page
 - Modifies the header
 - Adds primitive blog roll
 - Adds primitive responsive nav menu

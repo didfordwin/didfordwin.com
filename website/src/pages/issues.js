@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 export default ({ data }) => {
-  console.log(data);
   return (
     <ul style={{ listStyle: 'none' }}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
