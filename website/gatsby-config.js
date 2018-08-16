@@ -6,22 +6,23 @@ module.exports = {
     whoWeAre: `We are a bipartisan group of Ontario residents who are deeply curious about the 2018 Ontario PC leadership election.`
   },
   plugins: [
-    `gatsby-transformer-remark`,
+    'gatsby-transformer-remark',
+    'gatsby-plugin-glamor',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `src`,
+        name: 'src',
         path: `${__dirname}/src/`
       }
     },
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-typography',
       options: {
-        pathToConfigModule: `src/utils/typography.js`
+        pathToConfigModule: 'src/utils/typography.js'
       }
     },
     {
-      resolve: `gatsby-plugin-sitemap`
+      resolve: 'gatsby-plugin-sitemap'
     },
     {
       resolve: 'gatsby-plugin-html-attributes',
