@@ -1,6 +1,6 @@
 {
   "name": "did-ford-win",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Website dedicated to answering questions about if and how Doug Ford won the 2018 Ontario PC Leadership Election",
   "main": "index.js",
   "repository": "https://github.com/didfordwin/didfordwin.com",

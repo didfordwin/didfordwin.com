@@ -76,6 +76,16 @@ export default ({ data }) => {
             GitHub
           </a>
         </p>
+        <section>
+          <header>
+            <h4>Help Wanted: Design</h4>
+          </header>
+          <p>
+            If you are good at design (or at least better than our current
+            designer) and know CSS and a little React you have a skillset we
+            need!
+          </p>
+        </section>
       </article>
     </article>
   );

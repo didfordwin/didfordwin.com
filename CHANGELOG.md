@@ -1,3 +1,7 @@
+## 0.7.0
+
+- Ask for design help
+
 ## 0.6.0
 
 - New content
